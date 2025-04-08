@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Implant Order Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="p-6 font-sans">
+    <div class="max-w-6xl mx-auto">
+        <!-- Table -->
+        <div class="rounded-t-xl overflow-x-auto lg:overflow-hidden"">
+            <table class="w-full border-collapse">
+                <thead class="bg-gray-100 rounded-lg h-16 relative">
+                    <tr>
+                        <th class="p-4 text-left font-bold text-gray-700">Position</th>
+                        <th class="p-4 text-left font-bold text-gray-700">Work Type</th>
+                        <th class="p-4 text-left font-bold text-gray-700">Type of Implant</th>
+                        <th class="p-4 text-left font-bold text-gray-700">Connection</th>
+                        <th class="p-4 text-left font-bold text-gray-700">Angled Channel</th>
+                        <th class="p-4 text-left font-bold text-gray-700">Suprastructure Design</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-b border-gray-200 bg-white">
+                        <td class="p-4">21</td>
+                        <td class="p-4">Crown</td>
+                        <td class="p-4"></td>
+                        <td class="p-4"></td>
+                        <td class="p-4"></td>
+                        <td class="p-4 text-right">
+                            <button class="text-gray-500 hover:text-gray-700 mx-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                                </svg>
+                            </button>
+                            <button class="text-gray-500 hover:text-gray-700 mx-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                </svg>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="border-b border-gray-200 bg-white">
+                        <td class="p-4">24</td>
+                        <td class="p-4">Crown Screwed/<br>Custom Abutment</td>
+                        <td class="p-4">Lorem Ipsum</td>
+                        <td class="p-4">Lorem Ipsum</td>
+                        <td class="p-4">Lorem Ipsum</td>
+                        <td class="p-4 flex justify-between items-center">
+                            <span>Lorem Ipsum</span>
+                            <div>
+                                <button class="text-gray-500 hover:text-gray-700 mx-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                                    </svg>
+                                </button>
+                                <button class="text-gray-500 hover:text-gray-700 mx-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Form Sections -->
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Left Column -->
+            <div class="space-y-6">
+                <!-- File Upload Section -->
+                <div>
+                    <h3 class="text-sm text-gray-600 mb-2">Upload file</h3>
+                    <div class="flex gap-5">
+                        <div class="flex items-center">
+                            <label for="file-upload" class="bg-blue-50 text-blue-[#F1F9FB] px-4 py-2 rounded-md text-sm font-medium cursor-pointer">
+                                Add attachment
+                            </label>
+                            <input id="file-upload" type="file" class="hidden" />
+                        </div>
+                        <div class="text-sm text-gray-500 border-b border-black">
+                            No files have been uploaded.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comment Section -->
+                <div>
+                    <h3 class="text-sm text-gray-600 mb-2">Comment/Message</h3>
+                    <textarea class="w-full border border-gray-300 rounded-md p-4 h-60 focus:outline-none focus:ring-1 focus:ring-[#65bccd]"></textarea>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div>
+                <h3 class="text-sm text-gray-600 mb-2">Billing Address</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <!-- Address Card 1 -->
+                    <div class="address-card border border-gray-200 rounded-md p-4 bg-white cursor-pointer">
+                        <h4 class="font-medium text-gray-800 mb-2">Lorem Dental Lab</h4>
+                        <div class="text-sm text-gray-600 space-y-1">
+                            <p>John Doe</p>
+                            <p>Largo Lorenzo Maggio, 33</p>
+                            <p>90146, Palermo, Italy</p>
+                            <p>+39 329 49 00 000</p>
+                        </div>
+                    </div>
+
+                    <!-- Address Card 2 -->
+                    <div class="address-card border border-gray-200 rounded-md p-4 bg-white cursor-pointer">
+                        <h4 class="font-medium text-gray-800 mb-2">Ipsum Center</h4>
+                        <div class="text-sm text-gray-600 space-y-1">
+                            <p>Don Joe</p>
+                            <p>124, Triq Lorem Ipsum</p>
+                            <p>ZBG3649, Zebbug, Malta</p>
+                            <p>+356 329 49 00 000</p>
+                        </div>
+                    </div>
+
+                    <!-- Address Card 3 -->
+                    <div class="address-card border border-gray-200 rounded-md p-4 bg-white cursor-pointer">
+                        <h4 class="font-medium text-gray-800 mb-2">Ipsum Center</h4>
+                        <div class="text-sm text-gray-600 space-y-1">
+                            <p>Don Joe</p>
+                            <p>124, Triq Lorem Ipsum</p>
+                            <p>ZBG3649, Zebbug, Malta</p>
+                            <p>+356 329 49 00 000</p>
+                        </div>
+                    </div>
+
+                    <!-- Add New Address Card -->
+                    <div class="border border-gray-200 rounded-md p-4 bg-white cursor-pointer">
+                        <button class="flex items-center text-gray-600 hover:text-gray-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                            </svg>
+                            <span>Add a New Address</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="mt-8 grid grid-cols-2 gap-4">
+            <button class="border border-gray-300 rounded-md py-3 px-4 text-gray-700 font-medium hover:bg-[#65bccd] hover:text-white transition">
+                Edit Order
+            </button>
+            <button class="bg-[#65bccd] text-white rounded-md py-3 px-4 font-medium">
+                Confirm & Pay
+            </button>
+        </div>
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const cards = document.querySelectorAll(".address-card");
+    
+            cards.forEach(card => {
+                card.addEventListener("click", () => {
+                    // Remove selected state from all cards
+                    cards.forEach(c => {
+                        c.classList.remove("border-[#65bccd]", "bg-[#F1F9FB]");
+                        c.classList.add("border-gray-200", "bg-white");
+                    });
+    
+                    // Add selected state to the clicked card
+                    card.classList.remove("border-gray-200", "bg-white");
+                    card.classList.add("border-[#65bccd]", "bg-[#F1F9FB]");
+                });
+            });
+        });
+    </script>
+</body>
+</html>
